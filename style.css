@@ -1,0 +1,154 @@
+{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: Arial;
+}
+a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #5243C0;
+}
+a:hover{
+    opacity: 9;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+}
+.common-btn{
+    background: #FFDBDB;
+    border-radius:25px;
+    padding: 15px 20px;
+}
+.common-btn.dark{
+    background: #5243C0;
+    color: #fff;
+}
+.container{
+    max-width: 1080px;
+    padding: 0 30px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+/header/
+header{
+    background:#f2f2f2;
+    padding: 15px 0;
+}
+header img{
+    width: 100px;
+}
+
+
+header ul li{
+    display:inline-block;
+}
+
+header ul lia{
+    color: grey;
+    margin: 0 15px;
+    padding-bottom: 5px;
+
+}
+header ul li a:hover
+header ul li a.active{
+    border-bottom: 4px solid #5243C0;
+    color: grey;
+}
+
+
+/main/
+main{
+    display: flex;
+    justify-content: space-between;
+}
+
+main .content{
+    background-color: #eee;
+    width: 400px;
+
+}
+/main .content,/
+main.barner{
+    padding: 30px;
+    
+
+}
+main.content div{
+    display: flex;
+    margin: 28px 0 30px;
+
+}
+main .content div a{
+    margin-right: 20px;
+}
+main .content div button{
+    background-image: url('img/arrow-up.png');
+    width:50px ;
+    height: 50px;
+    border: none;
+    border-radius: 50%;
+    background-size: cover;
+    margin: 0 10px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+
+
+main .content ul li{
+    background: #fafafa;
+    padding: 10px;
+    margin-bottom:20px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 330px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px 4px grey;
+    transition: ali .2s;
+
+
+     
+}
+main .content ul li:hover,
+main .content ul li .active{
+    background: #fff;
+    cursor: pointer;
+    transform: scale(1,1);
+
+}
+main .content ul li .title{
+    width:138px;
+    
+}
+main .content ul li .tag{
+    width: 23px;
+    height: 14px;
+    border-radius: 10px;
+    background: red;
+    display: inline-block;
+}
+
+main .content ul li .tag.red{
+    background: #fe7448;
+}
+
+main .content ul li .tag.green{
+    background: #9ed895;
+
+}
+main .content ul li .tag.lightorange{
+    background: #fff;
+}
+main .banner img{
+    width: 100%;
+}
